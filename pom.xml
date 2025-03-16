@@ -5,27 +5,26 @@
 
     <groupId>com.example</groupId>
     <artifactId>mindcircuitbatch15d</artifactId>
-    <version>1.0.0-snapshot</version>
+    <version>1.0.0</version>
     <packaging>war</packaging>
 
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http:/35.175.183.227:9000/</sonar.host.url>
+		<sonar.host.url>http://3.83.18.215:9000/</sonar.host.url>
 
 	</properties>
 
 	<distributionManagement>
-               <snapshotRepository>
-               <id>NexusRepo</id>
-               <url>http://18.234.65.230:8081/repository/b13-snapshot/</url>
-               </snapshotRepository>
-    
-              <repository>
-              <id>NexusRepo</id>
-              <url>http://18.234.65.230:8081/repository/b13-release/</url>
-              </repository>
-         </distributionManagement>
-
+		 <snapshotRepository>
+		    <id>NexusRepo</id>
+		    <url>http://18.234.65.230:8081/#browse/browse:b13-snapshot</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>NexusRepo</id>
+		    <url>http://18.234.65.230:8081/#browse/browse:b13-release</url>
+		</repository>
+  	</distributionManagement>
 
     
     <build>
@@ -41,4 +40,3 @@
         </plugins>
     </build>
 </project>
-
