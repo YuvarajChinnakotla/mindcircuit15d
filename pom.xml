@@ -22,7 +22,7 @@
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://18.234.65.230:8081/repository/b13-realese/</url>
+		    <url>http://18.234.65.230:8081/repository/b13-release/</url>
 		</repository>
   	</distributionManagement>
 
