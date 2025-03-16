@@ -17,7 +17,7 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://18.234.65.230:8081/#browse/browse:b13-snapshot</url>
+		    <url>http://18.234.65.230:8081/repository/b13-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
