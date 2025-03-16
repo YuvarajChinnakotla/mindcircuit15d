@@ -20,10 +20,10 @@
 		    <url>http://18.234.65.230:8081/repository/b13-snapshot/</url>
 		 </snapshotRepository>
 		
-		<repository>
-		    <id>NexusRepo</id>
-		    <url>http://18.234.65.230:8081/#browse/browse:b13-release</url>
-		</repository>
+    <repository>
+        <id>NexusRepo</id>
+        <url>http://18.234.65.230:8081/repository/b13-release/</url>
+    </repository>
   	</distributionManagement>
 
     
